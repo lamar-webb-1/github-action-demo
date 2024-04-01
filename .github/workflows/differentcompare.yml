@@ -1,8 +1,8 @@
-name: Self Compare
+name: Different Compare
 on: [push]
 jobs:
   self_compare:
-    name: Self Compare
+    name: Different Compare
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
